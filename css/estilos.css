@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{font-family: 'Roboto';font-weight: 400;background-color: #E5E5E5;}
+header{background-color: #222222;}
+main{margin: 35px 19px;}
+
+.padre{display: flex;
+    justify-content: space-between;
+    align-items: center;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.caja{flex-grow: 1;}
+.caja2{color: #F3F3F3;
+    display: flex; 
+    list-style: none;
+    justify-content: space-around;
+    flex-grow: 1;}
+
+.contenedor{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+}
+
+.repartidor{
+    display: flex;
+    flex:1;
+    background: url("../img/delivery.jpg");
+    height: 350px;
+    width: 490px;
+    background-repeat:no-repeat;
+    flex-basis: 50%;
+}
+.envio{
+    display:flex;
+    flex:1;
+    justify-content: flex-start;font-weight: 700;
+    color:red}
+
+.comida
+{display: flex;flex-wrap: wrap;
+height:350px;
+width: 490px;
+flex-basis: 50%;
+background-color: #FFFFFF;border-radius: 5px;}
+
+
+.titulo{flex-basis: 100%;color: red;font-weight: 700;text-align: center;}
+.resaltado{color: white;}
+
+.image{flex-basis: 50%;}
+
+.list{flex-basis: 50%;font-weight: 700;}
+
+footer{background-color: #222222}
+.padre2{display: flex;justify-content: space-around;height: 150px;}
+.footer1{display:flex; color: #F3F3F3;justify-content: space-around;flex-grow: 1;flex-direction: column;}
+.logo{display:flex;justify-content: flex-end;align-items: center;}
